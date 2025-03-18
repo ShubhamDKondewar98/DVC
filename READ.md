@@ -40,6 +40,10 @@ touch test.py
 ```
 
 ```
-dvc init
+python stage_01.py
 python stage_02.py
+dvc init
 dvc repro
+dvc dag
+``` 
+
