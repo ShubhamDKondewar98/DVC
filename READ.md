@@ -26,9 +26,13 @@ touch README.md
 ```
 
 
+
+
 ```
 ctrl+enter -- work as git add. & git commit 
 ```
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt 
+
+touch test.py
 ```
