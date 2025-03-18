@@ -9,7 +9,8 @@ code .
 
 
 ```
-conda create --prefix  env python=3.8 -y 
+conda create --prefix  env(environment name) python=3.8 -y 
+source activate ./env 
 ```
 
 ```
@@ -21,5 +22,13 @@ touch .gitignore
 ```
 
 ```
-README.md
+touch README.md
+```
+
+
+```
+ctrl+enter -- work as git add. & git commit 
+```
+```
+pip install -r requirements.txt
 ```
