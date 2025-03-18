@@ -24,7 +24,9 @@ touch .gitignore
 ```
 touch README.md
 ```
-
+```
+dvc init
+```
 
 
 
@@ -36,3 +38,8 @@ pip install -r requirements.txt
 
 touch test.py
 ```
+
+```
+dvc init
+python stage_02.py
+dvc repro
